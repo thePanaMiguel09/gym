@@ -52,7 +52,7 @@ export default function Exercise() {
       <View style={styles.card}>
         <View style={styles.item}>
           <Image
-            source={require("../../images/cena.jpg")}
+            source={require("../../images/cena.png")}
             style={styles.itemImage}
           />
           <View style={styles.itemContent}>
