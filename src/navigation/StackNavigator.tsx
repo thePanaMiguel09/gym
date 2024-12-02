@@ -26,6 +26,8 @@ export default function StackNavigator() {
         headerShown: false,
         ...TransitionPresets.SlideFromLeftIOS,
         ...TransitionPresets.ModalFadeTransition,
+        gestureEnabled: true,
+        gestureDirection: "horizontal",
         headerStyle: {
           backgroundColor: "transparent",
           borderBottomRightRadius: 20,
@@ -37,8 +39,7 @@ export default function StackNavigator() {
           fontWeight: "bold",
         },
         headerTitleAlign: "center",
-        cardStyle:{
-        }
+        cardStyle: {},
       }}
     >
       <Stack.Screen name="Login" component={Login} />
