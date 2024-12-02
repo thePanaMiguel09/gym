@@ -35,7 +35,6 @@ export default function ExampleExercise({ route }: Props) {
 
   return (
     <View style={styles.container}>
-
       {loading ? (
         <ActivityIndicator size="large" color="gray" />
       ) : exercises.length ? (
@@ -95,8 +94,8 @@ const styles = StyleSheet.create({
     marginTop: 4,
     color: "#ffff",
   },
-  exerciseDifficult:{
-    color: "gray"
+  exerciseDifficult: {
+    color: "gray",
   },
   exerciseInstructions: {
     fontSize: 12,
@@ -108,5 +107,5 @@ const styles = StyleSheet.create({
     fontSize: 16,
     textAlign: "center",
     marginTop: 20,
-  }
+  },
 });

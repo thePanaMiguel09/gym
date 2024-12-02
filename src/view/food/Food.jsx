@@ -4,7 +4,7 @@ export default function Exercise() {
   return (
     <View style={styles.container}>
       <Image
-        source={require("../../images/gymFont.jpg")}
+        source={require("../../images/gymFont.png")}
         style={styles.backGroung}
       ></Image>
 
@@ -32,7 +32,7 @@ export default function Exercise() {
       <View style={styles.card}>
         <View style={styles.item}>
           <Image
-            source={require("../../images/almuerzo.jpg")}
+            source={require("../../images/almuerzo.png")}
             style={styles.itemImage}
           />
           <View style={styles.itemContent}>

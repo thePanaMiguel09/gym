@@ -132,7 +132,7 @@ export default function Exercise({ navigation }: Props) {
   return (
     <View style={styles.container}>
       <Image
-        source={require("../../images/gymFont.jpg")}
+        source={require("../../images/gymFont.png")}
         style={styles.backGroung}
       />
 
